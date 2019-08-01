@@ -4,3 +4,9 @@ This repository documents the subjects and techniques that I've been learning si
 ## Loops ##
 * While Loops 
 * For Loops
+## Arrays ##
+* typeof
+* Array.isArray
+* Basic Array Methods
+* Bracket Assignment & Access
+* .length property
