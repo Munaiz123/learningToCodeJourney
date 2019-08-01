@@ -18,3 +18,6 @@ This repository documents the subjects and techniques that I've been learning si
 * *in* operator
 * Nested arrays & objects
 * Accessing, adding & changing values 
+## Object Methods ##
+* *this* keyword
+* Creating, accessing & running a method within an object
