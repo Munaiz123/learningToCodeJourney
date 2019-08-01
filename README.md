@@ -26,3 +26,12 @@ This repository documents the subjects and techniques that I've been learning si
 * Variable assignment
 * Passing values into functions
 * Equality operators and PbV/PbR
+## Higher Order Functions ##
+* *.forEach*
+* Callbacks
+* Returning functions 
+* Closures
+## Recursions ##
+* The Call Stack
+* Recursing arrays & strings
+* Recursing through nested arrays and objects
