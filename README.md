@@ -10,3 +10,4 @@ This repository documents the subjects and techniques that I've been learning si
 * Basic Array Methods
 * Bracket Assignment & Access
 * .length property
+* Nested Arrays
