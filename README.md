@@ -21,3 +21,8 @@ This repository documents the subjects and techniques that I've been learning si
 ## Object Methods ##
 * *this* keyword
 * Creating, accessing & running a method within an object
+## Passing by Values & References ##
+* Primitive vs. complex types
+* Variable assignment
+* Passing values into functions
+* Equality operators and PbV/PbR
