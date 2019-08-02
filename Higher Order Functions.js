@@ -46,7 +46,8 @@ function myForEach(array, callBack){
   }
 }
 
-//This function takes a starting value and an array of functions, and returns the final value returned by the final function in the array, but before it passes the value returned by the first function into the second function, and so on.
+//This function takes a starting value and an array of functions, and returns the final value returned by the final function in the
+//array, but before it passes the value returned by the first function into the second function, and so on.
 
 function chainReaction(startVal, arrayOfFuncs){
   let finalValue = 0;
@@ -74,7 +75,8 @@ function multiplication (number){
   }
 }
 
-//This function returns a functon that takes a different argument and the returned function returns the function with the arguments passed through it. 
+//This function returns a functon that takes a different argument and the returned function returns the function with the arguments
+//passed through it. 
 
 function partial(func, argA){
   return function (argB){
@@ -100,7 +102,8 @@ function stringify(callback){
   }
 }
 
-// This function takes a default name and age, and returns a function. The returned function uses the default values defined when it was called.
+// This function takes a default name and age, and returns a function. The returned function uses the default values defined when
+//it was called.
 
 function getDogBreeder(OGname, OGage){
   return function dogBreeder(name, age){
@@ -115,7 +118,9 @@ function getDogBreeder(OGname, OGage){
   }
 }
 
-//This function mimics a cache by taking in a function and returning a new function with an argument. When the function is called for the first time, it calls the function with the argument and saves the result of the function. If the function is called again with the same argument, the stored value is retrieved instead of calling the function again.
+//This function mimics a cache by taking in a function and returning a new function with an argument. 
+//When the function is called for the first time, it calls the function with the argument and saves the result of the function.
+//If the function is called again with the same argument, the stored value is retrieved instead of calling the function again.
 
 function cacheSavings(func){
   let cache = {};
